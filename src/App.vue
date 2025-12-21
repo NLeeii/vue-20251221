@@ -52,20 +52,18 @@ const updateUser = ()=>{
   <button @click="rename">重新命名</button>
   <button @click="updateUser">換人</button> -->
 
-  <!-- <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+  <header>
+    <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
     <div class="wrapper">
-      <HelloWorld msg="NLEE!" />
+      <!-- <HelloWorld msg="NLEE!" /> -->
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/product">Product</RouterLink>
+        <RouterLink to="/cart">Cart</RouterLink>
       </nav>
     </div>
-  </header>-->
-  <br>
-  <RouterLink to="/about">About</RouterLink>
-  <RouterLink to="/product">Product</RouterLink>
-  <br>
+  </header>
   <RouterView />
 </template>
 
