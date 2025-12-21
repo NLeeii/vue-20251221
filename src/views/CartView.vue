@@ -3,11 +3,13 @@
 </script>
 
 <template>
-  <h1>購物車</h1>
+  <h2>購物車</h2>
 </template>
 
 <style lang="scss" scoped>
-  h1 {
-    color: red;
+  h2 {
+    padding: 24px 0;
+    color: #333;
+    font-weight: 600;
   }
 </style>

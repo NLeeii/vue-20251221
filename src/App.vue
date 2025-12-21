@@ -60,6 +60,7 @@ const updateUser = ()=>{
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/product">Product</RouterLink>
+        <RouterLink to="/product-1">Product-1</RouterLink>
         <RouterLink to="/cart">Cart</RouterLink>
       </nav>
     </div>
