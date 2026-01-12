@@ -63,6 +63,8 @@ const updateUser = ()=>{
         <RouterLink to="/product-1">Product-1</RouterLink>
         <RouterLink to="/user">User</RouterLink>
         <RouterLink to="/cart">Cart</RouterLink>
+        <RouterLink to="/shop">Shop</RouterLink>
+        <RouterLink to="/shopDetail/:id">ShopDetail</RouterLink>
       </nav>
     </div>
   </header>
